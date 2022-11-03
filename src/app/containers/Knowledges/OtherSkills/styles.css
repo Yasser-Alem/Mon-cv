@@ -1,0 +1,29 @@
+.other-skills {
+  grid-area: O;
+  margin-right: 0.5rem;
+}
+.list {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.list ul {
+  height: 80%;
+  display: grid;
+}
+.list i {
+  color: var(--color5);
+}
+@media screen and (max-width: 850px) {
+  .other-skills {
+    font-size: 0.8rem;
+  }
+}
+@media screen and(max-width:500px) {
+  .otherSkills {
+    grid-area: 3;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,90 @@
+.languagesFrameworks {
+  grid-area: L;
+  margin-bottom: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "L" "F";
+  color: var(--color2);
+}
+.languagesFrameworks h3 {
+  margin-bottom: 0.3rem;
+}
+.languages-display {
+  grid-area: L;
+}
+.framework-display {
+  grid-area: F;
+}
+.years {
+  font-size: 0.65rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.years span {
+  width: 36%;
+}
+
+.years span :nth-child(2) {
+  text-align: right;
+  width: 20%;
+}
+.years span :nth-child(3) {
+  text-align: right;
+  width: 44%;
+}
+.years span:nth-child(2)::before {
+  content: "";
+  background: var(--color2);
+  position: absolute;
+  height: 140px;
+  width: 2px;
+  transform: translate(9px, 19px);
+}
+.years span:nth-child(3)::before {
+  content: "";
+  background: var(--color2);
+  position: absolute;
+  height: 140px;
+  width: 2px;
+  transform: translate(9px, 19px);
+}
+.languages-list {
+  padding: 0.5rem;
+}
+.languages-list li {
+  color: var(--color2);
+}
+.progress-bar {
+  height: 0.4rem;
+  background: transparent;
+  border-radius: 50px;
+  margin-top: 0.2rem;
+  position: relative;
+}
+.progress-bar::after {
+  content: "";
+  background: var(--color5);
+  border-radius: 50px;
+  height: 0.4rem;
+  width: 100%;
+  position: absolute;
+  width: 0;
+  animation: line 2s ease-out forwards;
+}
+@keyframes line {
+  to {
+    width: 100%;
+  }
+}
+@media screen and(max-width:950px) {
+  .languages-list {
+    padding-top: 0.2rem;
+  }
+}
+@media screen and (max-width=500px) {
+  .languages {
+    grid-area: 1;
+  }
+}

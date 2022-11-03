@@ -1,0 +1,237 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "value": "Javascript",
+      "icon": "fab fa-js",
+      "level": 1,
+      "type": "programming_language"
+    },
+    {
+      "id": 4,
+      "value": "React",
+      "icon": "fab fa-react",
+      "level": 0.5,
+      "parentSkillId": 1,
+      "type": "framework"
+    },
+    {
+      "id": 7,
+      "value": "Bootstrap",
+      "level": 0.4,
+      "parentSkillId": 1,
+      "type": "framework"
+    },
+    {
+      "id": 8,
+      "value": "Material UI",
+      "level": 1,
+      "parentSkillId": 1,
+      "type": "framework"
+    },
+    {
+      "id": 2,
+      "value": "C",
+      "icon": "fa-solid fa-c",
+      "level": 0.6,
+      "type": "programming_language"
+    },
+    {
+      "id": 3,
+      "value": "CSS",
+      "icon": "fab fa-css3-alt",
+      "level": 1.8,
+      "type": "programming_language"
+    },
+    {
+      "id": 5,
+      "value": "Wordpress",
+      "icon": "fa-brands fa-wordpress",
+      "level": 1,
+      "type": "cms"
+    },
+    {
+      "id": 6,
+      "value": "HTML",
+      "icon": "fab fa-html5",
+      "level": 2,
+      "type": "programming_language"
+    },
+    {
+      "id": 9,
+      "skill": "Anglais",
+      "icon": "fas fa-check-square",
+      "type": "lang"
+    },
+    {
+      "id": 10,
+      "skill": "Arabe",
+      "icon": "fas fa-check-square",
+      "type": "lang"
+    },
+    {
+      "id": 11,
+      "skill": "Github",
+      "icon": "fa-brands fa-github",
+      "type": "dev_tools"
+    },
+    {
+      "id": 12,
+      "skill": "Figma",
+      "icon": "fa-brands fa-figma",
+      "type": "graphic_tools"
+    },
+    {
+      "id": 13,
+      "skill": "Outils PAO",
+      "icon": "fa-solid fa-photo-film",
+      "type": "graphic_tools"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "projet streaming",
+      "skills": [6, 3],
+      "source": "http//www-mon-site",
+      "details": "\n    Lorem ipsum dolor sit amet consectetur, adipisicing elit.edd\n    ",
+      "images": [
+        "./assets/site-streaming.png",
+        "./assets/site-streaming2.png",
+        "./assets/site-streaming3.png",
+        "./assets/site-streaming4.png",
+        "./assets/site-streaming5.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "projet Quartier",
+      "skills": [6, 3, 1],
+      "source": "http//www-mon-site",
+      "details": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.edd",
+      "images": [
+        "./assets/site-streaming.png",
+        "./assets/site-streaming2.png",
+        "./assets/site-streaming3.png",
+        "./assets/site-streaming4.png",
+        "./assets/site-streaming5.png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "projet csv",
+      "skills": [1, 4],
+      "source": "http//www-mon-site",
+      "details": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.edd",
+      "images": [
+        "./assets/site-streaming.png",
+        "./assets/site-streaming2.png",
+        "./assets/site-streaming3.png",
+        "./assets/site-streaming4.png",
+        "./assets/site-streaming5.png"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "projet PacMan",
+      "skills": [2],
+      "source": "http//www-mon-site",
+      "details": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.edd",
+      "images": [
+        "./assets/site-streaming.png",
+        "./assets/site-streaming2.png",
+        "./assets/site-streaming3.png",
+        "./assets/site-streaming4.png",
+        "./assets/site-streaming5.png"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "projet Escrime",
+      "skills": [5],
+      "source": "http//www-mon-site",
+      "details": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.edd",
+      "images": [
+        "./assets/site-streaming.png",
+        "./assets/site-streaming2.png",
+        "./assets/site-streaming3.png",
+        "./assets/site-streaming4.png",
+        "./assets/site-streaming5.png"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "projet Mosquée",
+      "skills": [6, 3, 1],
+      "source": "http//www-mon-site",
+      "details": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.edd",
+      "images": [
+        "./assets/site-streaming.png",
+        "./assets/site-streaming2.png",
+        "./assets/site-streaming3.png",
+        "./assets/site-streaming4.png",
+        "./assets/site-streaming5.png"
+      ]
+    }
+  ],
+  "networks": [
+    {
+      "id": 1,
+      "link": "http://www.google.com",
+      "network": "LinkedIn",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "id": 2,
+      "link": "http://www.google.com",
+      "network": "Github",
+      "icon": "fab fa-github"
+    },
+    {
+      "id": 3,
+      "link": "http://www.google.com",
+      "network": "Twitter",
+      "icon": "fab fa-twitter"
+    },
+    {
+      "id": 4,
+      "link": "http://www.google.com",
+      "network": "CodePen",
+      "icon": "fab fa-codepen"
+    }
+  ],
+  "competencesExp": [
+    {
+      "id": 1,
+      "className": "exp1",
+      "job": "Directeur tecnique chez Apple",
+      "years": "2018-2020",
+      "descriptif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. EsseLorem ipsum dolor sit amet consectetur adipisicing elit. EssevLorem ipsum dolor sit amet consectetur adipisicing elit. EsseLorem ipsum dolor sit amet consectetur adipisicing elit. EsseLorem ipsum dolor sit amet consectetur adipisicing elit. EsseLorem ipsum dolor sit amet consectetur adipisicing elit. Esse, at cu"
+    },
+
+    {
+      "id": 2,
+      "className": "exp2",
+      "job": "Alternant en formation FullStack - LIM SAS",
+      "years": "2021-2024",
+      "descriptif": "Je suis actuellement Alternant chez LIM SAS ma formation consiste a me former en REACT ce qui veut dire en Javascript, HTML et CSS ainsi que sur du Typescript l'objéctif final est de changer la version de leurs modules,le but est de décomposer cette module en plusieurs modules qui permettra a ses client de choisir que les modules utiles pour lui(le client).Il fallait aussi refaire le designe et l'interface de l'espace client qui facilitera le comprehension des different modules"
+    }
+  ],
+  "Hobbies": [
+    {
+      "id": 1,
+      "interest": "FootBall",
+      "icon": "fas fa-running"
+    },
+    {
+      "id": 2,
+      "interest": "High tech",
+      "icon": "fas fa-microchip"
+    },
+    {
+      "id": 3,
+      "interest": "Lire",
+      "icon": "fas fa-graduation-cap"
+    }
+  ]
+}

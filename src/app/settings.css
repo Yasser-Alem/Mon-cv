@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2? family= Redressed & display=swap");
+:root {
+  --font1: "Redressed", cursive;
+  --color1: rgb(30 30 30);
+  --color2: #582900;
+  --color3: wheat; /*#c8ad7f */
+  --color4: #582900;
+  --color5: #582900;
+  --color6: #ebebeb;
+}
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 1rem auto;
+  max-width: 1200px;
+  color: var(--color2);
+  font-family: var(--font1);
+  background-color: var(--color6);
+}
+
+.main {
+  display: flex;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--color2);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .main {
+    display: block;
+  }
+}
+.home,
+.knowledges,
+.portfolio,
+.contact {
+  display: flex;
+}
+@media screen and (max-width: 850px) {
+  .home,
+  .knowledges,
+  .portfolio,
+  .contact {
+    display: block;
+  }
+}
+.homeContent,
+.knowledgesContent,
+.portfolioContent,
+.contactContent {
+  margin-left: 0.4rem;
+}
+@media screen and (max-width: 850px) {
+  .homeContent,
+  .knowledgesContent,
+  .portfolioContent,
+  .contactContent {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,27 @@
+.Hobbies {
+  grid-area: H;
+  padding-left: 1.5rem;
+}
+.Hobbies ul {
+  height: 80%;
+  display: grid;
+}
+.Hobbies i {
+  position: absolute;
+  color: var(--color5);
+}
+.Hobbies span {
+  position: absolute;
+  transform: translateX(2.5rem);
+}
+@media screen and (max-width: 850px) {
+  .Hobbies {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hobbies {
+    grid-area: 4;
+    margin-top: 0.5rem;
+  }
+}

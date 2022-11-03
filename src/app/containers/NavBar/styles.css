@@ -1,0 +1,160 @@
+.sideBar {
+  background: var(--color3);
+  font-family: var(--font1);
+  min-height: 75vh;
+  border-radius: 25px;
+  position: relative;
+  display: grid;
+  grid-column: 1;
+  grid-template-columns: 1fr;
+  grid-template-rows: 300px 1fr 108px;
+  grid-template-areas: "1" "2" "3";
+  transition: 1s;
+}
+.id {
+  grid-area: 1;
+  text-align: center;
+  user-select: none;
+  position: relative;
+  transition: 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+  border-radius: 25px;
+}
+.idContent {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  transition: 1s;
+}
+.idContent img {
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px var(--color1), 0 0 0 8px var(--color5),
+    0 0 0 12px var(--color1);
+}
+.sideBar h2 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-top: 1.5rem;
+  background: var(--color5);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  color: var(--color3);
+}
+.navigation {
+  grid-area: 2;
+  padding: 2rem 1rem;
+}
+.navigation li {
+  padding: 1rem 0 1rem 0.4rem;
+  font-size: 1.3rem;
+  position: relative;
+}
+.navigation li i:hover {
+  transform: translate(3px, 3px);
+  color: var(--color5);
+}
+.NavActive {
+  color: var(--color5);
+  background: rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  padding: 10px;
+}
+.navigation i {
+  position: absolute;
+  font-size: 1.5rem;
+  transform: translateY(9px);
+  transition: 0.2s ease;
+}
+.navigation span {
+  margin-left: 2.7rem;
+  transition: 0.5s;
+}
+.navigation span:hover {
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.socialNetwork {
+  grid-area: 3;
+  transition: 1s;
+}
+.socialNetwork i:hover {
+  color: var(--color4);
+}
+.socialNetwork a:hover {
+  background-color: var(--color3);
+}
+.socialNetwork ul {
+  display: flex;
+  width: 264px;
+  padding: 0 14px;
+  justify-content: space-between;
+}
+.socialNetwork a {
+  color: var(--color3);
+  padding: 0.5rem 0.8rem;
+  font-size: 1.5rem;
+  background: var(--color2);
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.signature {
+  margin-top: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+}
+@media screen and (max-width: 850px) {
+  .sideBar {
+    display: flex;
+    min-height: 50px;
+    margin-bottom: 0.2rem;
+    transition: 1s;
+  }
+  .socialNetwork,
+  .id {
+    display: none;
+    transition: 1s;
+  }
+  .navigation {
+    width: 100%;
+    padding: 0.1rem 1rem;
+    transition: 1s;
+  }
+  .navigation ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .NavActive {
+    background: none;
+    font-size: 30px;
+  }
+  .NavActive span {
+    margin-left: 2.3rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 580px) {
+  .sideBar ul {
+    justify-content: space-around;
+  }
+  .sideBar li {
+    padding: 1rem 0;
+  }
+  .sideBar i {
+    font-size: 1.4rem;
+    transform: translateY(-3px);
+  }
+  .sideBar span {
+    display: none;
+    transition: 1s;
+  }
+}
